@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Portfolio - Renato Pinheiro</title>
+
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script type="text/javascript" src="../js/index.js"></script>
+    <meta name="viewport" content="width=device-width, iniital-scale=1.0">
+
+
+</head>
+
+<body>
+    <main class="main">
+        <nav id="navigation" class="navigation">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../portfolio.html">Portfolio</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li id="hamburger-button" class="hamburger-button" onclick="burgerMenu()">&Congruent;</li>
+            </ul>
+        </nav>
+
+        <hr>
+        <h1 class="port-page-title">Information Systems Programmer</h1>
+        <hr class="bottom-line">
+
+        <section>
+
+            <h1>EvoCorp</h1>
+
+            <img src="./job-imgs/tests.png" alt="picture of tests" class="job-pictures">
+
+            <h2>Job description</h2>
+
+            <p>
+                This especific service was about a test of performance in an <strong> API integration </strong> using, at first, <strong>NodeJs</strong> and
+                <strong>Express</strong> into a <strong>Docker</strong> Container. Those tests was necessary to know how many resouces would be necessary to use when production mode project. After that the project was integrated and tested using
+                <strong>TypeScript</strong> with <strong>NestJS</strong>.
+            </p>
+
+            <img src="./job-imgs/study-integration-tools.jpg" alt="study picture" class="job-pictures">
+
+            <p>
+                Considering the necessity of monitoring and keep tests working in a good mood, a study of tools and ways to monitoring it was started. Tools like <strong>Elasticsearch</strong> and <strong>Kibana</strong>,
+                <strong>Prometheus</strong> and Grafana was analysed to pick the best choice. But, more than that, the necessity to monitoring over than an project emerged: monitoring everything.
+            </p>
+
+            <img src="./job-imgs/nodejs-performance-monitoring-with-prometheus-and-grafana.png" alt="picture of tests" class="job-pictures">
+
+            <p>
+                JavaScript, NodeJS, Prometheus <strong>(PromQL)</strong> and <strong>Grafana</strong> was the chosen tools to iniciate de montoriing project. At first, the server where services is running was monitored, after that, any container
+                <strong>(service/microservice)</strong> into it. Metrics was collected and calculations using PromQL was adaptaded to the necessity of any service an its main functions. Services as <strong>RabbitMQ</strong>,
+                <strong>Nginx</strong> and <strong>Docker</strong> was monitored and visual graphics created to good visualization. Prom-client (TypeScript & NodeJS) was chosen to extract metrics of the software.
+            </p>
+
+        </section>
+
+    </main>
+
+    <nav class="navigation">
+        <a href="../index.html" class="nav-back">Back to main page<a>
+    </nav>
+</body>
+
+</html>
